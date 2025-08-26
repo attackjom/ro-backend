@@ -12,7 +12,7 @@ RUN go mod download
 
 # Copy the rest of the application code
 COPY . .
-COPY config_prod.yaml ./config.yaml
+//COPY config_prod.yaml ./config.yaml
 
 # Build the Go application
 RUN go build -o main .
