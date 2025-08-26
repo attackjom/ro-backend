@@ -1,7 +1,0 @@
-!config_prod.yaml
-config.yaml
-
-# allow Go source + modules
-!**/*.go
-!go.mod
-!go.sum
